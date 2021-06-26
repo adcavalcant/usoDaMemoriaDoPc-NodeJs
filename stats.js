@@ -13,6 +13,7 @@ setInterval(() => {
     usage: `${percent}%`,
   };
 
+  console.clear();
   console.log("=== PC STATS ===");
   console.table(stats);
 }, 1000);
